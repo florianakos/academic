@@ -53,6 +53,10 @@
   <script src="{{ $mathjax_config.RelPermalink }}"></script>
   {{ end }}
 
+  {{ range .Site.Params.custom_css -}}
+  <link rel="stylesheet" href="{{ . | absURL }}">
+  {{- end }}
+
   {{/* Attempt to load local vendor CSS, otherwise load from CDN. */}}
   {{ $scr.Set "vendor_css_filename" "main.min.css" }}
   {{ $scr.Set "vendor_js_filename" "main.min.js" }}
