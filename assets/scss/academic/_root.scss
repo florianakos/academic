@@ -194,16 +194,16 @@ hr {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  color: #50ae2f;
+  border-left: .20rem dotted #50ae2f;
 }
 blockquote p:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 30em) {
   blockquote {
-    padding-right: 5rem;
-    padding-left: 1.25rem;
+    padding-right: 8rem;
+    padding-left: 2.25rem;
   }
 }
 
