@@ -3,7 +3,7 @@
  **************************************************/
 
 .docs-article-container {
-  max-width: 100%;
+  max-width: 85%;
 }
 
 /* Documentation: article footer. */
@@ -58,7 +58,7 @@
 
 @media (min-width:768px) {
   .docs-sidebar {
-    border-right: 1px solid rgba(0, 0, 0, .1)
+    border-right: 1px dotted rgba(0, 0, 0, .1)
   }
   @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-sidebar {
@@ -73,7 +73,7 @@
 
 @media (min-width:1200px) {
   .docs-sidebar {
-    border-right: 1px solid rgba(0, 0, 0, .1)
+    border-right: 1px dotted rgba(0, 0, 0, .1)
   }
   @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-sidebar {

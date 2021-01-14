@@ -198,14 +198,14 @@ blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
   color: #50ae2f;
-  border-left: .20rem dotted #50ae2f;
+  border-left: .10rem solid #50ae2f;
 }
 blockquote p:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 30em) {
   blockquote {
-    padding-right: 8rem;
+    padding-right: 4rem;
     padding-left: 2.25rem;
   }
 }
